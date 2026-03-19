@@ -11,8 +11,6 @@ export default defineVitestConfig({
           name: 'unit',
           include: ['src/**/*.unit.test.{ts,tsx}'],
           environment: 'stencil',
-          // required for <= node 20 only
-          pool: 'threads',
         },
       },
       // Component browser tests - real browser via Playwright
