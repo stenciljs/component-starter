@@ -15,7 +15,10 @@
     "noUnusedParameters": true,
     "jsx": "react",
     "jsxFactory": "h",
-    "jsxFragmentFactory": "h.Fragment"
+    "jsxFragmentFactory": "h.Fragment",
+    "types": [
+      "@stencil/vitest/globals"
+    ]
   },
   "include": [
     "src"
