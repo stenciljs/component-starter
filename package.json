@@ -34,17 +34,16 @@
   "scripts": {
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
-    "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll",
+    "test": "stencil-test",
+    "test:watch": "stencil-test --watch",
     "generate": "stencil generate"
   },
   "devDependencies": {
     "@stencil/core": "^4.27.1",
-    "@types/jest": "^29.5.14",
+    "@stencil/vitest": "^1.8.1",
     "@types/node": "^22.13.5",
-    "jest": "^29.7.0",
-    "jest-cli": "^29.7.0",
-    "puppeteer": "^24.3.0"
+    "@vitest/browser-playwright": "^4.0.0",
+    "vitest": "^4.0.0"
   },
   "license": "MIT"
 }
