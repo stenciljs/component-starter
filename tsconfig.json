@@ -13,6 +13,7 @@
     "target": "es2022",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "rootDir": "./",
     "jsx": "react",
     "jsxFactory": "h",
     "jsxFragmentFactory": "h.Fragment",
