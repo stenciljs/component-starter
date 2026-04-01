@@ -39,7 +39,7 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@stencil/core": "^4.27.1",
+    "@stencil/core": "^4.27.1 || ^5.0.0-0",
     "@stencil/vitest": "^1.8.3",
     "@types/node": "^22.13.5",
     "@vitest/browser-playwright": "^4.0.0",
